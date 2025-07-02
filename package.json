@@ -22,7 +22,10 @@
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
-    "release": "npm publish"
+    "release": "npm run build && npm publish"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "typescript": "^5.0.0"
