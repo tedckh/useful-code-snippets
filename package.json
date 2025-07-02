@@ -1,0 +1,30 @@
+{
+  "name": "@tedckh/useful-code-snippets",
+  "version": "1.0.0",
+  "description": "A collection of useful TypeScript utility functions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "typescript",
+    "utilities",
+    "helpers",
+    "utils"
+  ],
+  "author": "tedckh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tedckh/useful-code-snippets"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "release": "npm publish"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
