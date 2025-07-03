@@ -37,6 +37,7 @@ const formatted = formatDate('2025-01-01', 'en-US');
 - **`localStorage`** - Local storage utilities
 - **`object`** - Object manipulation helpers
 - **`sleep`** - Async delay utility
+- **`throttle`** - Throttled function
 
 ## License
 
